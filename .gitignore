@@ -1,0 +1,26 @@
+#  Ignore Python Bytecode Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#  Ignore Virtual Environment (venv)
+venv/
+env/
+
+#  Ignore SQLite Database
+*.db
+*.sqlite3
+
+#  Ignore Migrations Cache
+migrations/versions/
+
+#  Ignore Secret Environment Variables
+.env
+*.env
+
+#  Ignore Logs & Cache
+*.log
+*.sqlite-shm
+*.sqlite-wal
+instance/
